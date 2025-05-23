@@ -1,5 +1,6 @@
 <?php
 
+/*
 $idadeAluno = 20;
 
 if($idadeAluno >= 18) {
@@ -9,6 +10,12 @@ if($idadeAluno >= 18) {
 else{
     echo "Menor de idade";
 }
+*/
 
+$cores = ["vermelho", "verde", "azul", "amarelo", "roxo"];
+
+ foreach ($cores as $cor) {
+    echo $cor . "<br>";
+ }
 
 ?>
