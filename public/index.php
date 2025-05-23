@@ -1,10 +1,14 @@
 <?php
 
-const NOME_CURSO = "Sistemas de Informação";
-const INSTITUICAO = "Multivix";
+$idadeAluno = 20;
 
-$semestre_atual = 7;
+if($idadeAluno >= 18) {
+    echo "Maior de idade";
+}
 
-echo "Estou no" . $semestre_atual . "° período do curso de"  . NOME_CURSO . "na" . INSTITUICAO;
+else{
+    echo "Menor de idade";
+}
+
 
 ?>
