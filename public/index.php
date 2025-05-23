@@ -12,10 +12,17 @@ else{
 }
 */
 
+/*
 $cores = ["vermelho", "verde", "azul", "amarelo", "roxo"];
 
  foreach ($cores as $cor) {
     echo $cor . "<br>";
  }
+*/
 
+for($i = 1; $i = 10; $i++){
+    if($i % 2){
+        echo $i;
+    }
+}
 ?>
